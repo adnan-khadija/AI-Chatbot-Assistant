@@ -1,5 +1,3 @@
-
-```markdown
 # Chatbot AI avec Flask et Llama 2
 
 Ce projet implémente un chatbot alimenté par le modèle Llama 2 de LangChain, accessible via une interface web construite avec Flask. Le chatbot peut répondre à des questions basées sur l'historique de la conversation, offrant ainsi une expérience interactive avec un modèle de langage avancé.
@@ -29,7 +27,7 @@ Clonez ce repository et installez les dépendances requises :
 git clone https://github.com/votre-utilisateur/votre-repository.git
 cd votre-repository
 pip install -r requirements.txt
-```
+
 
 ### Variables d'environnement (si nécessaire)
 
@@ -70,25 +68,7 @@ Si vous souhaitez contribuer à ce projet, vous pouvez forker ce repository, eff
 
 ## Auteurs
 
-- **Votre nom** - Développeur principal
-- **Autres contributeurs** - Si applicable
+- **[Khadija ADNAN](https://github.com/adnan-khadija)**
+-
 
-## Licence
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-```
-
-### Explication des sections :
-
-1. **Introduction** : Une brève description de l'application et de ses fonctionnalités.
-2. **Prérequis** : Liste des bibliothèques nécessaires pour faire fonctionner le projet.
-3. **Installation** : Instructions pour cloner le projet et installer les dépendances.
-4. **Variables d'environnement** : Si nécessaire, indiquez comment configurer des variables comme des clés API ou d'autres configurations secrètes.
-5. **Utilisation** : Explique comment lancer l'application et où l'utiliser.
-6. **Structure du projet** : Montre comment les fichiers sont organisés dans le projet.
-7. **Contribuer** : Explique comment d'autres développeurs peuvent contribuer au projet.
-8. **Auteurs** : Mentionne les auteurs et contributeurs du projet.
-9. **Licence** : Indique la licence sous laquelle le code est distribué (ex. MIT).
-
-N'oubliez pas d'ajouter des informations sur la licence et les contributeurs si nécessaire.
