@@ -24,8 +24,8 @@ Avant de commencer, assurez-vous d'avoir Python 3.x installé sur votre machine.
 Clonez ce repository et installez les dépendances requises :
 
 ```bash
-git clone https://github.com/votre-utilisateur/votre-repository.git
-cd votre-repository
+git clone https://github.com/votre-utilisateur/AI-Chatbot-Assistant.git
+cd AI-Chatbot-Assistant
 pip install -r requirements.txt
 
 ```
