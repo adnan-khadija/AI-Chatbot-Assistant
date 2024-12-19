@@ -57,6 +57,5 @@ Vous pouvez maintenant poser des questions à votre chatbot via l'interface web 
 ## Auteurs
 
 - **[Khadija ADNAN](https://github.com/adnan-khadija)**
--
 
 
