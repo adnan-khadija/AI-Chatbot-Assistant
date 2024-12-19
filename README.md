@@ -60,7 +60,7 @@ Vous pouvez maintenant poser des questions à votre chatbot via l'interface web 
 └── .env                  # Fichier de configuration des variables d'environnement
 ```
 
-## Auteurs
+## Auteur
 
 - **[Khadija ADNAN](https://github.com/adnan-khadija)**
 
