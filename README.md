@@ -1,11 +1,10 @@
-Voici un exemple de fichier `README.md` pour votre projet de chatbot avec Flask et Llama 2. Ce fichier est conçu pour être simple et informatif, et pour aider les recruteurs ou toute autre personne à comprendre rapidement votre projet.
 
 ```markdown
-#Chatbot AI avec Flask et Llama 2
+# Chatbot AI avec Flask et Llama 2
 
 Ce projet implémente un chatbot alimenté par le modèle Llama 2 de LangChain, accessible via une interface web construite avec Flask. Le chatbot peut répondre à des questions basées sur l'historique de la conversation, offrant ainsi une expérience interactive avec un modèle de langage avancé.
 
-##Fonctionnalités
+## Fonctionnalités
 
 - Interaction en temps réel avec un modèle de langage (Llama 2).
 - Historique des conversations sauvegardé pour chaque utilisateur.
