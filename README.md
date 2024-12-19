@@ -2,6 +2,12 @@
 
 Ce projet implémente un chatbot alimenté par le modèle Llama 2 de LangChain, accessible via une interface web construite avec Flask. Le chatbot peut répondre à des questions basées sur l'historique de la conversation, offrant ainsi une expérience interactive avec un modèle de langage avancé.
 
+![image](https://github.com/user-attachments/assets/06283c83-4a54-4af8-8df4-0bb5c6759498)
+
+
+<img width="524" alt="image" src="https://github.com/user-attachments/assets/8027b001-dec0-487a-9ccf-c463b530d3c8" />
+
+
 ## Fonctionnalités
 
 - Interaction en temps réel avec un modèle de langage (Llama 2).
