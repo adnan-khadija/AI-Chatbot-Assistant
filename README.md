@@ -34,7 +34,7 @@ pip install -r requirements.txt
 Créez un fichier `.env` à la racine de votre projet et ajoutez-y vos variables d'environnement (par exemple, une clé API si nécessaire pour interagir avec un service externe).
 
 ```
-SECRET_KEY=VotreCléSecrèteIci
+
 ```
 
 ## Utilisation
@@ -51,7 +51,6 @@ Vous pouvez maintenant poser des questions à votre chatbot via l'interface web 
 
 ## Structure du projet
 
-```
 /chatbot
 ├── app.py               # Script principal de l'application Flask
 ├── requirements.txt      # Liste des dépendances du projet
@@ -60,7 +59,7 @@ Vous pouvez maintenant poser des questions à votre chatbot via l'interface web 
 ├── static/
 │   └── style.css         # Fichier CSS pour styliser l'interface
 └── .env                  # Fichier de configuration des variables d'environnement
-```
+
 
 ## Contribuer
 
