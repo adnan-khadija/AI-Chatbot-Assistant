@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>AI ChatBot</title>
+</head>
+<body>
+    <h1>AI ChatBot</h1>
+   
+    <div id="chat-box">
+        <p><strong>Bot:</strong> Hello! How can I assist you today?</p>
+    </div>
+    <form id="chat-form">
+        <input type="text" id="user_input" placeholder="Ask a question" required>
+        <button type="submit">Ask</button>
+    </form>
+
+    <script>
+        const form = document.getElementById('chat-form');
+        const chatBox = document.getElementById('chat-box');
+
+        form.addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            const userInput = document.getElementById('user_input').value;
+            const responseDiv = document.createElement('div');
+            responseDiv.innerHTML = `<p><strong>You:</strong> ${userInput}</p>`;
+
+            chatBox.appendChild(responseDiv);
+
+            // Appel de l'API Flask pour obtenir la réponse du bot
+            const response = await fetch('/ask', {
+                method: 'POST',
+                body: new URLSearchParams({ 'user_input': userInput }),
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            });
+
+            const data = await response.json();
+            const botResponse = document.createElement('div');
+            botResponse.innerHTML = `<p><strong>Bot:</strong> ${data.response}</p>`;
+            chatBox.appendChild(botResponse);
+
+            document.getElementById('user_input').value = ''; // Réinitialiser le champ de texte
+        });
+    </script>
+</body>
+</html>
